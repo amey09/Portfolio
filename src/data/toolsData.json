@@ -1,0 +1,22 @@
+{
+    "Weapons": [
+      { "name": "Figma", "imageUrl": "/weapons/figma.png", "progress": 100 },
+      { "name": "XD", "imageUrl": "/weapons/xd.png", "progress": 74 },
+      { "name": "Illustrator", "imageUrl": "/weapons/illustrator.png", "progress": 78 },
+      { "name": "Photoshop", "imageUrl": "/weapons/photoshop.png", "progress": 60 },
+      { "name": "Proropie", "imageUrl": "/weapons/protopie.png", "progress": 49 }
+    ],
+    "Tools": [
+      { "name": "AfterEffects", "imageUrl": "/tools/afterEffects.png", "progress": 48 },
+      { "name": "PremierePro", "imageUrl": "/tools/premierePro.png", "progress": 48 },
+      { "name": "Animate", "imageUrl": "/tools/animate.png", "progress": 30 },
+      { "name": "Spline", "imageUrl": "/tools/spline.png", "progress": 25 },
+      { "name": "Blender", "imageUrl": "/tools/blender.png", "progress": 25 }
+    ],
+    "Utils": [
+      { "name": "Word", "imageUrl": "/utils/word.png", "progress": 95 },
+      { "name": "Powerpoint", "imageUrl": "/utils/powerpoint.png", "progress": 90 },
+      { "name": "Excel", "imageUrl": "/utils/excel.png", "progress": 85 }
+    ]
+}
+  
