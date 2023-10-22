@@ -1,0 +1,40 @@
+{
+  "projects": [
+    {
+      "title": "DIET GENIE",
+      "titleTagLine": null,
+      "logoUrl": "./project/pear.png",
+      "tool": "Figma",
+      "toolLogoUrl": "./weapons/figma.png",
+      "aim": "The aim of this project is to generate a customisable Diet plan.",
+      "primaryImageUrl": "./project/dietgenie.png",
+      "primaryImageDescription": "This website is designed and intended to provide a smooth and user friendly experience to the end users.",
+      "secondaryImageUrl": null,
+      "secondaryImageDescription": null
+    },
+    {
+      "title": "NIRVANA",
+      "titleTagLine": null,
+      "logoUrl": "./project/nirvana.png",
+      "tool": "Figma",
+      "toolLogoUrl": "./weapons/figma.png",
+      "aim": null,
+      "primaryImageUrl": "./project/nirvanaPrimary.png",
+      "primaryImageDescription": "Nirvana is a music discovery and recommendation platform. It tracks your listening habits to provide personalised music suggestions.",
+      "secondaryImageUrl": "./project/nirvanaSecondary.png",
+      "secondaryImageDescription": "Nirvana is a platform that provides tools and opportunities for emerging artists to promote their music, connect with fans, and book gigs."
+    },
+    {
+      "title": "Revitalize",
+      "titleTagLine": "Gents Salon",
+      "logoUrl": "./project/revitalize.png",
+      "tool": "Figma",
+      "toolLogoUrl": "./weapons/figma.png",
+      "aim": null,
+      "primaryImageUrl": "./project/revitalizePrimary.png",
+      "primaryImageDescription": "Online salon booking system to make it easy for clients to schedule appointments.",
+      "secondaryImageUrl": null,
+      "secondaryImageDescription": null
+    }
+  ]
+}

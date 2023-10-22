@@ -1,1 +1,1 @@
-Use this branch to initialize feature branches
+Use this branch to initialize feature branches.
