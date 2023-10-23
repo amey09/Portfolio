@@ -11,7 +11,7 @@ import React from 'react';
 import { FaPhoneVolume } from 'react-icons/fa';
 import { MdEmail } from 'react-icons/md';
 
-function ContactCard() {
+function ContactCard({scrollToHome}) {
   return (
     <Flex flexDir={'column'} gap={'4rem'} alignItems={'center'}>
       <Heading>Get in Touch</Heading>
@@ -62,6 +62,7 @@ function ContactCard() {
       </Flex>
 
       <Text size={'t2'}>© PinakGhogale 2023</Text>
+      <Link variant={"link"} size ={'t2'} onClick={scrollToHome}>Back to Top</Link>
     </Flex>
   );
 }
