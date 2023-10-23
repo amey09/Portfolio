@@ -5,7 +5,7 @@ import aboutData from '../data/aboutData.json';
 function AboutContainer() {
   return (
     <Flex flexDir={'column'} alignItems={'center'} gap={'3rem'}>
-      <Link>
+      <Link href="/UI_CV.pdf" download>
         <Heading size={'md'}>Download Resume</Heading>
       </Link>
       <Flex padding={'1.5rem'} backgroundColor={'gray.900'}>

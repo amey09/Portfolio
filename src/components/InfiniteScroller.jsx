@@ -10,32 +10,32 @@ function InfiniteScroller() {
     >
       <ul className="tag-list scroller__inner">
         <li>
-          <Heading style={{ fontSize: 'clamp(48.75px, 8vw, 200px)' }}>
+          <Heading style={{ fontSize: 'clamp(48.75px, 8vw, 200px)' }} userSelect={"none"}>
             Featured Work
           </Heading>
         </li>
         <li>
-          <Heading style={{ fontSize: 'clamp(48.75px, 8vw, 200px)' }}>
+          <Heading style={{ fontSize: 'clamp(48.75px, 8vw, 200px)' }} userSelect={"none"}>
             Featured Work
           </Heading>
         </li>
         <li>
-          <Heading style={{ fontSize: 'clamp(48.75px, 8vw, 200px)' }}>
+          <Heading style={{ fontSize: 'clamp(48.75px, 8vw, 200px)' }} userSelect={"none"}>
             Featured Work
           </Heading>
         </li>
         <li>
-          <Heading style={{ fontSize: 'clamp(48.75px, 8vw, 200px)' }}>
+          <Heading style={{ fontSize: 'clamp(48.75px, 8vw, 200px)' }} userSelect={"none"}>
             Featured Work
           </Heading>
         </li>
         <li>
-          <Heading style={{ fontSize: 'clamp(48.75px, 8vw, 200px)' }}>
+          <Heading style={{ fontSize: 'clamp(48.75px, 8vw, 200px)' }} userSelect={"none"}>
             Featured Work
           </Heading>
         </li>
         <li>
-          <Heading style={{ fontSize: 'clamp(48.75px, 8vw, 200px)' }}>
+          <Heading style={{ fontSize: 'clamp(48.75px, 8vw, 200px)' }} userSelect={"none"}>
             Featured Work
           </Heading>
         </li>

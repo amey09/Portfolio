@@ -19,12 +19,14 @@ import InfiniteScroller from './components/InfiniteScroller';
 import ContactCard from './components/ContactCard';
 
 function App() {
+  const homeRef = useRef(null);
   const aboutRef = useRef(null);
   const toolsRef = useRef(null);
   const workRef = useRef(null);
   const contactRef = useRef(null);
   return (
     <ChakraProvider theme={theme}>
+      <header ref={homeRef}>
       <Navbar
         scrollToAbout={() =>
           aboutRef.current.scrollIntoView({ behavior: 'smooth' })
@@ -39,9 +41,11 @@ function App() {
           contactRef.current.scrollIntoView({ behavior: 'smooth' })
         }
       />
+      </header>
 
       {/* Hero */}
       <Flex
+
         minHeight={'70vh'}
         justifyContent={'center'}
         alignItems={'center'}
@@ -153,6 +157,7 @@ function App() {
 
       {/* Tools */}
       <Flex
+        ref={toolsRef}
         justifyContent={'center'}
         padding={{
           base: '5rem 0.9rem',
@@ -187,7 +192,9 @@ function App() {
           lg: '5rem 18vw',
         }}
       >
-        <ContactCard />
+        <ContactCard scrollToHome={() =>
+          homeRef.current.scrollIntoView({ behavior: 'smooth' })
+        } />
       </Flex>
     </ChakraProvider>
   );

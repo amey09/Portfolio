@@ -16,6 +16,7 @@ function Hero() {
         animation="slideLeft 8s cubic-bezier(0.48, 0.48, 0.48, 0.48) infinite alternate"
         bgClip={'text'}
         size={'h2'}
+        userSelect={"none"}
       >
         UI UX DESIGNER
       </Heading>
@@ -23,6 +24,7 @@ function Hero() {
         animation="slideRight 8s cubic-bezier(0.48, 0.48, 0.48, 0.48) infinite alternate"
         bgClip={'text'}
         size={'h2'}
+        userSelect={"none"}
       >
         PINAK GHOGALE
       </Heading>

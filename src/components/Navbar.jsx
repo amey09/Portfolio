@@ -18,7 +18,7 @@ function Navbar({
     >
       <HStack maxWidth={'12rem'} flexShrink={0}>
         <Image src="/logo.png" />
-        <Link textStyle={'NavLinks'} _hover={{ textDecoration: 'none' }}>
+        <Link userSelect={"none"} textStyle={'NavLinks'} _hover={{ textDecoration: 'none' }}>
           UI/UX Designer & Product Designer
         </Link>
       </HStack>
@@ -27,17 +27,17 @@ function Navbar({
         flex={{ base: '1', md: '0' }}
         gap={{ sm: '2rem' }}
       >
-        <Link textStyle={'NavLinks'}>Home</Link>
-        <Link textStyle={'NavLinks'} onClick={scrollToAbout}>
+        <Link textStyle={'NavLinks'} userSelect={"none"}>Home</Link>
+        <Link textStyle={'NavLinks'} onClick={scrollToAbout} userSelect={"none"}>
           About
         </Link>
-        <Link textStyle={'NavLinks'} onClick={scrollToWork}>
+        <Link textStyle={'NavLinks'} onClick={scrollToWork} userSelect={"none"}>
           Work
         </Link>
-        <Link textStyle={'NavLinks'} onClick={scrollToTools}>
+        <Link textStyle={'NavLinks'} onClick={scrollToTools} userSelect={"none"}>
           Tools
         </Link>
-        <Link textStyle={'NavLinks'} onClick={scrollToContact}>Contact</Link>
+        <Link textStyle={'NavLinks'} onClick={scrollToContact} userSelect={"none"}>Contact</Link>
       </HStack>
     </Flex>
   );
