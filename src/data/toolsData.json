@@ -4,7 +4,7 @@
       { "name": "XD", "imageUrl": "/weapons/xd.png", "progress": 74 },
       { "name": "Illustrator", "imageUrl": "/weapons/illustrator.png", "progress": 78 },
       { "name": "Photoshop", "imageUrl": "/weapons/photoshop.png", "progress": 60 },
-      { "name": "Proropie", "imageUrl": "/weapons/protopie.png", "progress": 49 }
+      { "name": "Protopie", "imageUrl": "/weapons/protopie.png", "progress": 49 }
     ],
     "Tools": [
       { "name": "AfterEffects", "imageUrl": "/tools/afterEffects.png", "progress": 48 },

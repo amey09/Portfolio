@@ -57,7 +57,7 @@ function ContactCard({scrollToHome}) {
         </Flex>
         <Flex alignItems={'center'} gap={'0.5rem'}>
           <FaPhoneVolume />
-          <Link>+91 8879506855</Link>
+          <Link>+91 8433535107</Link>
         </Flex>
       </Flex>
 

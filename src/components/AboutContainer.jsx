@@ -28,8 +28,8 @@ function AboutContainer() {
                           justifyContent={'space-between'}
                           paddingBottom={'0.5rem'}
                         >
-                          <Text opacity="100%">Introvert</Text>
-                          <Text opacity="100%">Extrovert</Text>
+                          <Text opacity="100%" style={{ fontSize: "0.7rem"}}>Introvert</Text>
+                          <Text opacity="100%" style={{ fontSize: "0.7rem"}}>Extrovert</Text>
                         </Flex>
                         <Progress
                           colorScheme="green"
