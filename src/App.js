@@ -1,5 +1,5 @@
 import React, { useRef } from 'react';
-import { ChakraProvider, Flex, IconButton } from '@chakra-ui/react';
+import { ChakraProvider, Flex, IconButton, Link} from '@chakra-ui/react';
 import theme from './chakraui/theme';
 import Navbar from './components/Navbar';
 import Hero from './components/Hero';
