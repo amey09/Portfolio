@@ -83,6 +83,7 @@ function App() {
               transitionTimingFunction: 'ease-in-out',
             }}
           />
+          <Link href="https://www.linkedin.com/in/pinak-ghogale-38177622b/" isExternal>
           <IconButton
             color={'white'}
             backgroundColor={'transparent'}
@@ -97,34 +98,39 @@ function App() {
               transitionTimingFunction: 'ease-in-out',
             }}
           />
-          <IconButton
-            color={'white'}
-            backgroundColor={'transparent'}
-            icon={<FaBehance />}
-            border={'1px solid white'}
-            borderRadius={'3xl'}
-            colorScheme="none"
-            _hover={{
-              shadow: 'md',
-              transform: 'translateY(-5px)',
-              transitionDuration: '0.2s',
-              transitionTimingFunction: 'ease-in-out',
-            }}
-          />
-          <IconButton
-            color={'white'}
-            backgroundColor={'transparent'}
-            icon={<FaDribbble />}
-            border={'1px solid white'}
-            borderRadius={'3xl'}
-            colorScheme="none"
-            _hover={{
-              shadow: 'md',
-              transform: 'translateY(-5px)',
-              transitionDuration: '0.2s',
-              transitionTimingFunction: 'ease-in-out',
-            }}
-          />
+          </Link>
+          <Link href="https://www.behance.net/pinakghogale" isExternal>
+    <IconButton
+      color={'white'}
+      backgroundColor={'transparent'}
+      icon={<FaBehance />}
+      border={'1px solid white'}
+      borderRadius={'3xl'}
+      colorScheme="none"
+      _hover={{
+        shadow: 'md',
+        transform: 'translateY(-5px)',
+        transitionDuration: '0.2s',
+        transitionTimingFunction: 'ease-in-out',
+      }}
+    />
+  </Link>
+          <Link href="https://dribbble.com/Pinak1412" isExternal>
+    <IconButton
+      color={'white'}
+      backgroundColor={'transparent'}
+      icon={<FaDribbble />}
+      border={'1px solid white'}
+      borderRadius={'3xl'}
+      colorScheme="none"
+      _hover={{
+        shadow: 'md',
+        transform: 'translateY(-5px)',
+        transitionDuration: '0.2s',
+        transitionTimingFunction: 'ease-in-out',
+      }}
+    />
+  </Link>
           <IconButton
             color={'white'}
             backgroundColor={'transparent'}
